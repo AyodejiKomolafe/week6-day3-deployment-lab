@@ -9,9 +9,10 @@ app.use(express.static('public'))
 const port = process.env.PORT || 4000
 
 
-const{ getHtml, getCss} = require('./controller')
+const{ getHtml, getCss, getJS} = require('./controller')
 
 app.get("/", getHtml)
 app.get("/css", getCss)
+app.get("/js", getJS)
 
 app.listen(port, console.log(`Server running on ${port}`))

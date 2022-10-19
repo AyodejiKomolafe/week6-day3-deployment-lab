@@ -1,4 +1,34 @@
 h1{
-    color: aquamarine;
+    background-color: white;
+    color: gold;
     font-size: 50px;
+    border: 5px solid bisque;
+}
+
+img {
+    width: 220px;
+    height: 300px;
+    border: 2px solid black;
+    box-shadow: 10px 10px skyblue;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+.pic-container {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+alert{
+    background-color: red;
 }
